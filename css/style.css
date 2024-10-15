@@ -1,0 +1,78 @@
+body{
+    background: url(img/dj.png);
+    background-size: 100% ;
+    height: 100%;
+    width: auto;
+    height: 610px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.backgong-col{
+    opacity: 0.9;
+    width: auto;
+    height: 610px;
+    margin: -10px;
+    background-color: blueviolet;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.menu-class{
+    position: absolute;
+    top: 10px;
+    left: 100px;
+    right: 100px;
+    width: auto;
+    height: 40px;
+    padding-top: 20px;
+    background:none ;
+    /* background-color: blue; */
+    border: none;
+    position: fixed;
+}
+
+.logo{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -70px;
+    width: 300px;
+}
+.menu-class a{
+    text-decoration:none;
+    color: #ffffff;
+}
+.menu-class label{
+    margin-left: 100px;
+}
+.group-img{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    right: 100px;
+    width: 400px;
+    height: 300px;
+    background-image: url(img/persone-removebg-preview.png);
+    background-size: 100%;
+}
+.group-text{
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    right: 100px;
+    width: 400px;
+    height: 300px;
+    background-color: #ffffff;
+    background-size: 100%;
+}
+.petite-backround1{
+    
+    position: absolute;
+    background-color: blue;
+    width: auto;
+    height: 1000px;
+    top: 600px;
+    left: 70px;
+    right: 70px;
+}
