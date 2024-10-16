@@ -47,11 +47,11 @@ body{
 }
 .group-img{
     position: absolute;
-    top: 200px;
+    top: 160px;
     left: 60px;
     right: 100px;
-    width: 430px;
-    height: 300px;
+    width: 450px;
+    height: 340px;
     background-image: url(../img/persone-removebg-preview.png);
     background-size: 100%;
 }
@@ -148,17 +148,21 @@ body{
     grid-template-rows: 60PX 1fr;
     justify-content: space-around;
     justify-items: space-around;
+    font-family: ;
 }
 .backgong-col3 div{
     margin-top: 10px;
     align-content: center;
 }
 .tcheld1{
-    background:local;
+    background:none;
     width: 300px;
     border: none;
     border-bottom: solid 3px #ffffff;
     font-size: 1.4em;
+    outline: none;
+    
+    font-family: Candara;
 }
 .select{
     color: #ffffff; 
@@ -168,7 +172,78 @@ body{
     color: #000000; 
 }
 
+.liste-image{
+    /* background: none; */
+    background-size: cover;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 10% 35% 35% 10%;
+    padding: 4px;
+    color: blueviolet;
+    gap: 40px 10px;
+    height: 400px;
+}
+.prliste-imagee .tetle{
+    font-size: 2em;
+    grid-column: 1/3;
+    background-color: black;
+}
+.liste-image .section1{
+    font-size: 2em;
+    grid-column: 4/5;
+    background-color: black;
+}
+.liste-image .section2{
+    font-size: 2em;
+    grid-column: 5/6;
+    background-color: black;
+}
+.liste-image .section1{
+    font-size: 2em;
+    grid-column: 4/5;
+    background-color: black;
+}
+.liste-image .backrong-imagText1{
+    background-color: black;
+    background-size: cover;
+    
+    grid-column: 1/3;
+}
+.liste-image .backrong-imagText2{
+    background-color: black;
+    background-size: cover;
+    
+    grid-column: 3/5;
+}
+.liste-image .backrong-imagText3{
+    background-color: black;
+    background-size: cover;
+    
+    grid-column: 5/7;
+}
+.liste-image .backrong-imagText4{
+    background-color: black;
+    background-size: cover;
+    grid-column: 1/3;
+}
+.liste-image .backrong-imagText5{
+    background-color: black;
+    background-size: cover;
+    grid-column: 3/5;
+}
+.liste-image .backrong-imagText6{
+    background-color: black;
+    background-size: cover;
+    grid-column: 5/7;
+}
+.liste-image .bottun{
+    
+    background-color: black;
+    grid-column: 3/5;
+    width: 60px;
+    margin-left: 30%;
 
-
+}
 
 
