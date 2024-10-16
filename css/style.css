@@ -151,15 +151,21 @@ body{
 }
 .backgong-col3 div{
     margin-top: 10px;
+    align-content: center;
 }
 .tcheld1{
-    background-color: rgb(0, 255, 72);
+    background:local;
+    width: 300px;
+    border: none;
+    border-bottom: solid 3px #ffffff;
+    font-size: 1.4em;
 }
-.tcheld2{
-    background-color: rgb(255, 0, 0);
+.select{
+    color: #ffffff; 
 }
-.tcheld3{
-    background-color: rgb(8, 8, 8);
+.select  option{
+    
+    color: #000000; 
 }
 
 
