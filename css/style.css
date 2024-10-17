@@ -18,6 +18,7 @@ body{
     background: linear-gradient(to bottom right, rgba(100, 0, 100, 0.7), rgba(0, 0, 233, 0.7));
     background-size: cover;
 }
+
 .menu-class{
     position: absolute;
     top: 10px;
@@ -431,4 +432,18 @@ body{
 }
 .div3 h5{
     margin-top: -10px;
+}
+
+.imageboc{
+    position: absolute;
+    top: 650px;
+    left: 100%;
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    background-image:url(../img/60762.png) ;
+    background-size: cover;
+    position: sticky;
+    cursor: pointer;
+
 }
