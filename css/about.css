@@ -1,0 +1,36 @@
+.aboutbackrounde{
+position: absolute;
+top: 500px;
+left: 100px;
+right: 100px;
+width: auto;
+height: 100px;
+background-color: #fff;
+opacity: 0.8;
+background-size: 100%;
+}
+
+
+.bacK-about1{
+    
+    position: absolute;
+    top: 606px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 1000px;
+    background-size: 100%;
+    background-color: #fff;
+    opacity: 0.9;
+    }
+.bacK-about2{
+    
+position: absolute;
+top: 590px;
+left: 100px;
+right: 100px;
+width: auto;
+height: 1000px;
+background-size: 100%;
+background-color: #fff;
+}
