@@ -1,0 +1,69 @@
+.bacK-spe{
+    
+    position: absolute;
+    top: 416px;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 900px;
+    background-size: 100%;
+    background-color: #fff;
+    opacity: 0.4;
+    border-radius: 40px;
+    }
+.bacK-spe2{
+    
+position: absolute;
+top: 440px;
+left: 100px;
+right: 100px;
+width: auto;
+height: 540px;
+background-size: 100%;
+background:none;
+/* display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+padding: 20px 20px; */
+
+}
+.bacK-spe2 div{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #4c3737;
+    background-size: cover;
+    color: #000;
+    width: auto;
+    border-radius: 20px;
+    height: 300px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.bacK-spe2 div img{
+    width: 23%;
+    /* height: %%; */
+    height:60%;
+}
+.textabout{
+    font-size: 3em;
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+}
+.text2{
+    
+    font-size: 3em;
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+.imgf{
+    width: 500px;
+
+}
