@@ -4,12 +4,14 @@
     top: 416px;
     left: 0px;
     right: 0px;
-    width: 100%;
-    height: 900px;
+    width: auto;
+    height: 1300px;
     background-size: 100%;
     background-color: #fff;
     opacity: 0.4;
     border-radius: 40px;
+    margin-right: -10px;
+    margin-left: -10px;
     }
 .bacK-spe2{
     
@@ -25,6 +27,8 @@ background:none;
 flex-direction: row;
 flex-wrap: wrap;
 padding: 20px 20px; */
+    margin-right: -10px;
+    margin-left: -10px;
 
 }
 .bacK-spe2 div{
@@ -46,6 +50,28 @@ padding: 20px 20px; */
     width: 23%;
     /* height: %%; */
     height:60%;
+    border-radius: 10px;
+}
+.bacK-spe2 div img:hover{
+    width: 24%;
+    height:63%;
+    border-radius: 10px;
+}
+.bacK-spe2 div section a {
+    width: 50%;
+    height: 50%;
+    /* margin-left: 30%; */
+}
+.bacK-spe2 div section a img{
+    width: 100%;
+    height: 100%;
+}
+.bacK-spe2 div section a :hover{
+    background-color: #8f184e;    
+    border: solid 1px #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
 .textabout{
     font-size: 3em;

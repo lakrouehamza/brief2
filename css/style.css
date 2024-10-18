@@ -1,22 +1,21 @@
 body{
     background: url(../img/dj.png);
-    background-size: 100% ;
-    height: 100%;
+    height: auto;
     width: auto;
-    height: 610px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
 
 }
 .backgong-col{
-    opacity: 1;
-    width: 1fr;
+    /* opacity: 1; */
+    width: auto;
     height: 620px;
     margin: -20px;
-    /* background-color:blueviolet; */
     background: linear-gradient(to bottom right, rgba(100, 0, 100, 0.7), rgba(0, 0, 233, 0.7));
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .menu-class{
@@ -33,6 +32,15 @@ body{
     position: fixed;
 }
 
+
+.messageOP{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    height:100%;
+    width: 400%;
+    opacity: 0;
+}
 .logo{
     position: absolute;
     margin-top: -80px;
@@ -179,11 +187,11 @@ body{
     background:none;
     display: grid;
     grid-template-columns: repeat(6,1fr);
-    grid-template-rows: 8% 37% 30% 5%;
+    grid-template-rows: 8% 35% 35% 5%;
     padding: 4px;
     color: blueviolet;
     gap: 5% 50px;
-    height: 900px;
+    height: 1000px;
     margin-top: 80px;
     border: solid 2px #000000;
     border-radius: 2%;
@@ -283,16 +291,29 @@ body{
     width: auto;
     height: 35px;
 }
+.liste-image2 .imgS:hover{
+    grid-column: 1/2;
+    width: auto;
+    height: 37px;
+    transition: 10ms;
+}
+
 .liste-image2 .imgG{
     grid-column: 2/3;
     width: auto;
     height: 35px;
 }
+.liste-image2 .imgG:hover{
+    grid-column: 2/3;
+    width: auto;
+    height: 37px;
+    transition: 10ms;
+}
 .liste-image2 .imgStipe{
     grid-column: 3/4;
     width: auto;
     height: 40px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 .liste-image2 .imgYM{
     grid-column: 4/7;
@@ -345,12 +366,12 @@ body{
     background-size: cover;
     width: auto;
     height: 400px;
-    margin-left: -110px;
-    margin-right: -110px;
+    /* margin-left: -110px;
+    margin-right: -120px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 50px 50px;
+    /* padding: 50px 50px; */
     color:#fff;
 }
 .footer a{
@@ -419,6 +440,14 @@ body{
     width: 100%;
     height: 100%;
 }
+.divfacbouk a:hover{
+    background-color: #8f184e;    
+    border: solid 1px #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+}
 .divfacbouk a{
     background:none;
     border: solid 1px #fff;
@@ -436,14 +465,13 @@ body{
 
 .imageboc{
     position: absolute;
-    top: 650px;
-    left: 100%;
+    top: 50px;
+    left: 95%;
     width: 45px;
-    height: 45px;
+    height: 45px; 
+    margin-top: 500px;
     border-radius: 45px;
     background-image:url(../img/60762.png) ;
     background-size: cover;
-    position: sticky;
-    cursor: pointer;
-
+    border: solid 1px #000;
 }

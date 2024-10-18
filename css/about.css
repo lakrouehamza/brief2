@@ -9,19 +9,18 @@ background-color: #fff;
 opacity: 0.8;
 background-size: 100%;
 }
-
-
 .bacK-about1{
     
     position: absolute;
     top: 606px;
     left: 0px;
     right: 0px;
-    width: 100%;
+    width: auto;
     height: 900px;
     background-size: 100%;
     background-color: #fff;
     opacity: 0.9;
+    margin-right: -10px;
     }
 .bacK-about2{
     
