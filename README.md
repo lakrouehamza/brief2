@@ -6,6 +6,8 @@ voici le  "https://www.figma.com/design/p42jqayLQ8PPAtVVXWxsfD/Untitled?node-id=
 Travailler sur Trello pour planifier et établir les étapes du travail.
 voici le  "https://trello.com/b/P5Fvgh8C/brief2"
 Dans la partie codage, je vais utiliser Flexbox, Grid et les propriétés de positionnement, ainsi que quelques actions au survol (hover). Enfin, je pousserai le code sur Git.
+# lien de projet sur github page
+https://lakrouehamza.github.io/brief2/
 
 
 
